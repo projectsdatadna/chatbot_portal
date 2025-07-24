@@ -24,7 +24,7 @@
   setPosition(chatButton, position);
 
   const img = document.createElement("img");
-  img.src = "http://localhost:5173/messenger.png";
+  img.src = "https://brave-water-027a5041e.2.azurestaticapps.net/messenger.png";
   img.alt = "Chat";
   img.style.width = "100%";
   img.style.height = "100%";
@@ -40,7 +40,7 @@
     logoUrl: config.logoUrl,
   });
 
-  iframe.src = `http://localhost:5173/?${params.toString()}`;
+  iframe.src = `https://brave-water-027a5041e.2.azurestaticapps.net/?${params.toString()}`;
   iframe.style.position = "fixed";
   iframe.style.width = "320px";
   iframe.style.height = "600px";
